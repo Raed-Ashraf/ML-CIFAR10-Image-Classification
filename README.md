@@ -23,12 +23,11 @@ After creating our model, we need to use it for predictions on images from the i
 
 Output of resizing using Image from PIL:
 
-![](images/Image_resize.PNG | width=100px)
-<img src="https://github.com/Raed-Ashraf/ML-Image-Classification/images/Image_resize.PNG" width="100">
+![](images/Image_resize.PNG)
 
 Output of resizing using openCV:
 
-![](images/openCV_resize.PNG =100x100)
+![](images/openCV_resize.PNG)
 
 Notice that openCV is dealing with images as an array (ex: 3072), but not 3 matrices as image PIL (ex: 32,32,3).
 
