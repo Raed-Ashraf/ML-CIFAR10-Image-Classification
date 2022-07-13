@@ -35,4 +35,12 @@ Notice that openCV is dealing with images as an array (ex: 3072), but not 3 matr
 Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/1J2_zClI6QuKE2RHVJytQnB7GrCrlfKr4/view?usp=sharing)
 
 ## Comments
-As you can notice that using openCV to read and resize image is leading to a different output with using Image from PIL. In this project, using Image from PIL comes up with better predictions.
+* As you can notice that using openCV to read and resize image is leading to a different output with using Image from PIL. In this project, using Image from PIL comes up with better predictions.
+
+* When feeding the input image to the model to predict, you should do it as an array and don't forget to divide it over 255 as follows:
+
+![](images/input_array.PNG)
+
+otherwise you will get that error:
+
+![](images/error.PNG)
