@@ -4,7 +4,7 @@ Here I am using CIFAR10 dataset to train the model, and I got it from that link 
 The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6000 images per class. There are 50000 training images and 10000 test images. The dataset is divided into five training batches and one test batch, each with 10000 images.
 After downloading the dataset you will find that the archive contains the files data_batch_1, data_batch_2, ..., data_batch_5, as well as test_batch. Each of these files is a Python "pickled" object produced with cPickle. So i created the unpickle function to unpickle these files.
 
-![](Images/unpickle_dict_structure.PNG)
+![](images/unpickle_dict_structure.PNG)
 
 ## Project Steps
 * First you need to download dataset from the link above.
