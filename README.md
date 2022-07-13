@@ -24,4 +24,4 @@ After creating our model, we need to use it for predictions on images from the i
 Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/1J2_zClI6QuKE2RHVJytQnB7GrCrlfKr4/view?usp=sharing)
 
 ## Comments
-As you can notice that using openCV to read and resize image is leading to a different output with using Image PIL. In this project, using Image PIL comes up with better predictions.
+As you can notice that using openCV to read and resize image is leading to a different output with using Image from PIL. In this project, using Image from PIL comes up with better predictions.
