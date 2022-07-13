@@ -23,11 +23,13 @@ After creating our model, we need to use it for predictions on images from the i
 
 Output of resizing using Image from PIL:
 
-![](images/Image_resize.PNG)
+![](images/Image_resize.PNG | width=100)
 
 Output of resizing using openCV:
 
-![](images/openCV_resize.PNG)
+![](images/openCV_resize.PNG =100x100)
+
+Notice that openCV is dealing with images as an array (ex: 3072), but not 3 matrices as image PIL (ex: 32,32,3).
 
 ## Project Video
 Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/1J2_zClI6QuKE2RHVJytQnB7GrCrlfKr4/view?usp=sharing)
