@@ -9,7 +9,7 @@ After downloading the dataset you will find that the archive contains the files 
 After unpickle each dataset batch file, you will get a dictionary file with the below structure:
 ![](images/unpickle_dict_structure.PNG)
 
-So all we need is to take the data numpy array and labels list from each data batch dictionary and concatenate them together.
+So all we need is to take the data numpy array and labels list from each data batch dictionary and merge them together using concatenate function.
 
 ## Project Steps
 * First you need to download dataset from the link above.
@@ -17,8 +17,11 @@ So all we need is to take the data numpy array and labels list from each data ba
 * Then pick up some images from the internet and put them in the same directory of the project source code (4 images or you have to edit the for loop in the main code). 
 * Finally run the main python file to use the model to predict the downloaded images. 
 
+## Preprocess images before passing it to the model
+After creating our model, we need to use it for predictions on images from the internet. But remember that we need these images to be 32 x 32 x 3 so that we can feed it to our model. To do so i used two different method with two different librarries: openCV and Image form PIL
+
 ## Project Video
 Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/1J2_zClI6QuKE2RHVJytQnB7GrCrlfKr4/view?usp=sharing)
 
 ## Comments
-As you can notice that using openCV to read and resize image is leading to a different output while using Image PIL. In this project, using Image PIL comes up with better predictions.
+As you can notice that using openCV to read and resize image is leading to a different output with using Image PIL. In this project, using Image PIL comes up with better predictions.
