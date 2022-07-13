@@ -23,7 +23,7 @@ After creating our model, we need to use it for predictions on images from the i
 
 Output of resizing using Image from PIL:
 
-![](images/image_resize.PNG)
+![](images/Image_resize.PNG)
 
 Output of resizing using openCV:
 
