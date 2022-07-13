@@ -24,7 +24,7 @@ After creating our model, we need to use it for predictions on images from the i
 Output of resizing using Image from PIL:
 
 ![](images/Image_resize.PNG)
-<img src="https://github.com/Raed-Ashraf/ML-Image-Classification/tree/main/images/Image_resize.PNG" height="50" width="50">
+<img src="https://github.com/Raed-Ashraf/ML-Image-Classification/images/Image_resize.PNG" height="50" width="50">
 
 
 Output of resizing using openCV:
