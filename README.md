@@ -21,6 +21,14 @@ So all we need is to take the data numpy array and labels list from each data ba
 ## Preprocess images before passing it to the model
 After creating our model, we need to use it for predictions on images from the internet. But remember that we need these images to be 32 x 32 x 3 so that we can feed it to our model. To do so i used two different method with two different librarries: openCV and Image form PIL
 
+Output of resizing using Image from PIL:
+
+![](images/image_resize.PNG)
+
+Output of resizing using openCV:
+
+![](images/openCV_resize.PNG)
+
 ## Project Video
 Here you can find a video in which I use the model to predict some downloaded images >> [Video](https://drive.google.com/file/d/1J2_zClI6QuKE2RHVJytQnB7GrCrlfKr4/view?usp=sharing)
 
