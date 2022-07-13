@@ -7,6 +7,7 @@ The CIFAR-10 dataset consists of 60000 32x32 colour images in 10 classes, with 6
 After downloading the dataset you will find that the archive contains the files data_batch_1, data_batch_2, ..., data_batch_5, as well as test_batch. Each of these files is a Python "pickled" object produced with cPickle. So i created the unpickle function to unpickle these files.
 
 After unpickle each dataset batch file, you will get a dictionary file with the below structure:
+
 ![](images/unpickle_dict_structure.PNG)
 
 So all we need is to take the data numpy array and labels list from each data batch dictionary and merge them together using concatenate function.
