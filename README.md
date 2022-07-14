@@ -1,4 +1,4 @@
-# ML-Image-Classification
+# ML Image Classification
 ## About Data
 Here I am using CIFAR10 dataset to train the model, and I got it from that link >> [LINK](https://www.binarystudy.com/2021/09/how-to-load-preprocess-visualize-CIFAR-10-and-CIFAR-100.html)
 
